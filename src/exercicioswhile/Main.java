@@ -4,13 +4,14 @@ public class Main {
 
 	public static void main(String[] args) {
  
-		int x = 2;
-		int y = 10;
-		System.out.println("Olá");
-		while (x < y) {
-		System.out.println(x + "-" + y);
-		x = x * 2;
-		y = y + 1;
+		int x = 4;
+		int y = 0;
+		int i = 0;
+		while (i < x) {
+		i = i + 1;
+		y = y + i;
+		System.out.print(i);
+		System.out.println(y);
 		}
 	}
 }
