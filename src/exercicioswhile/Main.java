@@ -4,12 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
  
-		int x = 5;
+		int x = 2;
 		int y = 0;
-		while (x > 2) {
-		System.out.print(x);
-		y = y + x;
-		x = x - 1;
+		while (x <60) {
+		System.out.println(x);
+		x = x * 2;
+		y = y + 10;
 		}
 	}
 }
