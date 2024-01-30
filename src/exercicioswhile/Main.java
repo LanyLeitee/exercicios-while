@@ -1,14 +1,22 @@
 package exercicioswhile;
 
-public class Main {
+import java.util.Scanner;
 
+public class Main {
 	public static void main(String[] args) {
- 
-		double x = 100;
-		int y = 100;
-		while (x != y) {
-		System.out.print("olha");
-		x =  Math.sqrt(y);
+		
+		Scanner sc = new Scanner(System.in);
+
+		int senha = sc.nextInt();
+
+		while (senha != 2002) {
+			System.out.println("Senha inválida");
+			senha = sc.nextInt();
+
 		}
+		System.out.print("Senha correta! ");
+
+		sc.close();
 	}
 }
+
